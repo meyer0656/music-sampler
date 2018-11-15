@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  background: #222222;
+  color: #ffff00;
+  font-family: 'Amatic SC', cursive;
+}
+p {
+  margin: 0;
+}
+.headline {
+  font-size: 72px;
+  margin: 0;
+  padding: 0;
+}
+.about {
+  font-size: 24px;
+  max-width: 600px;
+  margin: auto;
+}
+.tn {
+  width: 150px;
+  height: 150px;
+  padding: .5rem;
+  border-radius: 30px;
+}
+.fullsize {
+  margin: auto;
+  display: block;
+  padding-top: .5rem;
+}
+audio {
+  width: 300px;
+}
+.songs {
+  font-size: 36px;
+}
+a {
+  color: #fff000;
+}
+
+@media only screen and (max-width: 400px) {
+  .tn {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+  }
+  .art {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .about {
+    width: 300px;
+  }
+  #M83 {
+    width: 300px;
+  }
+}
